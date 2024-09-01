@@ -266,15 +266,46 @@ ul a{
    
 
 }
-/* Default styles for all screen sizes */
-/* body {
-    font-size: 16px;
+
+/* Mobile devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .nav-search {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .shop-section {
+      flex-direction: column;
+      width: 100%;
+      margin: 0;
+    }
+  
+    .box {
+      width: 90%;
+      margin: 10px auto;
+    }
+  
+    .hero-section {
+      height: 200px;
+    }
   }
   
-  /* Styles for screens bigger than 768px */
-  /* @media screen and (min-width: 768px) {
-    body {
-      font-size: 18px;
+  /* Tablets (max-width: 1024px) */
+  @media screen and (max-width: 1024px) {
+    .nav-search {
+      width: 70%;
     }
-  } */ */
-
+  
+    .shop-section {
+      flex-wrap: wrap;
+    }
+  
+    .box {
+      width: 45%;
+    }
+  }
