@@ -270,7 +270,7 @@ ul a{
 /* Mobile devices (max-width: 768px) */
 @media screen and (max-width: 768px) {
     .navbar {
-      flex-direction: column;
+      flex-direction: row-reverse;
       height: auto;
     }
   
@@ -280,7 +280,7 @@ ul a{
     }
   
     .shop-section {
-      flex-direction: column;
+      flex-direction: row-reverse;
       width: 100%;
       margin: 0;
     }
